@@ -1,12 +1,18 @@
 # ai-ipsum
 
-A lorem ipsum generator with a dash of AI
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b99dc1ca-1fa1-47ae-ab9b-f83c3d898b25/deploy-status)](https://app.netlify.com/sites/ai-ipsum/deploys)
 
-**screenshot will go here**
+A lorem ipsum generator with a dash of AI (★ ω ★)
 
 ## How does it work?
 
-You can get your blob of text from **URL will go here**, or you can use the API!
+You can get your blob of text from [ai-ipsum.netlify.app](https://ai-ipsum.netlify.app/), or you can use the API!
+
+If you want to use the API, you can make a GET request like so:
+
+```bash
+GET https://ai-ipsum.netlify.app/ipsum/{quantity}
+```
 
 ## Improving the generator
 

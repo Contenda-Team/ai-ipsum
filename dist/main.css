@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 1.3em;
+	max-width: 40rem;
+	padding: 2rem;
+	margin: auto;
+	line-height: 1.5rem;
+}
+
+pre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: #1f1f1f;
+	color: #d3ffd2;
+	padding: 1rem;
+	line-height: 1rem;
+}
+
+pre a {
+	color: #bf9ff9;
+}

@@ -1,0 +1,13 @@
+[build]
+  publish = "dist"
+  command = ""
+
+[[redirects]]
+  from = "/ipsum/:quantity"
+  to = "/.netlify/functions/ai-ipsum/:quantity"
+  status = 200
+
+[[redirects]]
+  from = "/ipsum"
+  to = "/.netlify/functions/ai-ipsum"
+  status = 200

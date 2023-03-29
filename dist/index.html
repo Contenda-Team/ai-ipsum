@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>AI Ipsum - The future of Lorem Ipsum</title>
+	</head>
+	<body>
+		<h1>AI Ipsum</h1>
+
+		<form action="/ipsum" method="get">
+			<label for="quantity"> How much AI Ipsum would you like? </label>
+			<input type="number" id="quantity" name="quantity" value="1" min="1" />
+			<button type="submit" class="button">
+				Unleash the AI word-wizardry!
+			</button>
+		</form>
+
+		<div id="count"></div>
+		<div id="sample"></div>
+
+		<h2>The AI Ipsum API</h2>
+
+		<p>
+			That's right, you can also use an API to get all of your AI wordy
+			goodness.
+		</p>
+		<p>
+			Just make a GET request like the following and you'll get back a JSON
+			object with the AI Ipsum.
+		</p>
+
+		<pre>
+			GET <a href="/ipsum/2">https://{url}/ipsum/{quantity}</a>
+		</pre>
+
+		<script src="lorem.js"></script>
+	</body>
+</html>

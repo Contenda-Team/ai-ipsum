@@ -10,34 +10,51 @@
 	<body>
 		<h1>AI Ipsum</h1>
 
-		<form action="/ipsum" method="get">
-			<label for="quantity">
-				How many AI Ipsum paragraphs would you like?
-			</label>
-			<br />
-			<input type="number" id="quantity" name="quantity" value="1" min="1" />
-			<button type="submit" class="button">
-				Unleash the AI word-wizardry!
-			</button>
-		</form>
-
-		<div id="count"></div>
-		<div id="sample"></div>
-
-		<h2>The AI Ipsum API</h2>
-
 		<p>
-			That's right, you can also use an API to get all of your AI wordy
-			goodness.
-		</p>
-		<p>
-			Just make a GET request like the following and you'll get back a JSON
-			object with the AI Ipsum.
+			Why have dummy filler text when you can have <em>smart</em>,
+			<strong>AI-powered</strong> (kind of) filler text?
 		</p>
 
-		<pre>
+		<div class="filler">
+			<form action="/ipsum" method="get">
+				<label for="quantity">
+					How many AI Ipsum paragraphs would you like?
+				</label>
+				<br />
+				<input type="number" id="quantity" name="quantity" value="1" min="1" />
+				<button type="submit" class="button">
+					Unleash the AI word-wizardry!
+				</button>
+			</form>
+
+			<div id="count"></div>
+			<div id="sample"></div>
+
+			<h2>The AI Ipsum API</h2>
+
+			<p>
+				That's right, you can also use an API to get all of your AI wordy
+				goodness.
+			</p>
+			<p>
+				Just make a GET request like the following and you'll get back a JSON
+				object with the AI Ipsum.
+			</p>
+
+			<pre>
 			<code>GET <a href="/ipsum/2">https://ai-ipsum.netlify.app/ipsum/{quantity}</a></code>
 		</pre>
+		</div>
+
+		<footer>
+			This project is lovingly brought to you by the nerds at
+			<a href="https://contenda.co/">Contenda</a>, the AI companion for dev
+			advocates and content creators. <br />
+			Check us out and see how we can take any video, from a conference talk to
+			an interview to a demo, and turn it into
+			<strong>effective</strong> written content (...not just filler text, we
+			promise)!
+		</footer>
 
 		<script src="lorem.js"></script>
 	</body>

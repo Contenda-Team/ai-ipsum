@@ -44,7 +44,7 @@ exports.handler = async (event, context) => {
 		statusCode: 200,
 		body: JSON.stringify({
 			words: words.split(" ").length,
-			ipsum: words,
-		}),
+			ipsum: words
+		})
 	};
 };

@@ -16,6 +16,11 @@ html {
 	color: black;
 }
 
+h2 {
+	margin-top: 2rem;
+	margin-bottom: 1.2rem;
+}
+
 pre {
 	display: flex;
 	align-items: center;

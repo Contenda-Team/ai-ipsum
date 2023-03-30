@@ -11,13 +11,17 @@ html {
 	line-height: 1.5rem;
 }
 
+::selection {
+	background-color: #d3ffd2;
+	color: black;
+}
+
 pre {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 10px;
 	border: 3px solid #1f1f1f;
-	/* color: #6ce385; */
 	padding: 1rem;
 	line-height: 1rem;
 }
@@ -30,6 +34,12 @@ footer {
 	margin: 1rem 0;
 	padding: 1rem 0;
 	font-size: 0.8rem;
+}
+
+.ipsum {
+	border: 3px solid #1f1f1f;
+	padding: 1rem;
+	border-radius: 8px;
 }
 
 .filler {

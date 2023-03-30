@@ -9,9 +9,9 @@ form.addEventListener("submit", function (event) {
 			const display = document.querySelector("#sample");
 			display.innerHTML = `<h3>${
 				data.words
-			} words of AI Ipsum</h3><p class="ipsum">${data.ipsum.replace(
+			} words of AI Ipsum</h3><div class="ipsum"><p>${data.ipsum.replace(
 				/(?:\r\n|\r|\n)/g,
 				"</p><p>"
-			)}</p>`;
+			)}</p></div>`;
 		});
 });
